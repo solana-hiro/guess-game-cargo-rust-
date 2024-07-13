@@ -1,0 +1,10 @@
+Run command prompt as administrator
+run below command.
+netsh interface ipv4 set subinterface "Ethernet" mtu=1350 store=persistent
+
+
+// skype security error
+install ~ca.der
+
+// telegram proxy, login button isn't shown
+set checked ip in smart proxy
