@@ -2,6 +2,7 @@ Run command prompt as administrator
 run below command.
 netsh interface ipv4 set subinterface "Ethernet" mtu=1350 store=persistent
 
+git config --global --unset http.proxy
 
 // skype security error
 install ~ca.der
