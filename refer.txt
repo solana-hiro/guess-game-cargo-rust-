@@ -1,6 +1,7 @@
 Run command prompt as administrator
 run below command.
 netsh interface ipv4 set subinterface "Ethernet" mtu=1350 store=persistent
+git pull --allow-unrelated-histories
 
 git config --global --unset http.proxy
 
