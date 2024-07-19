@@ -3,6 +3,13 @@ run below command.
 netsh interface ipv4 set subinterface "Ethernet" mtu=1350 store=persistent
 git pull --allow-unrelated-histories
 
+//git branch 
+git remote set-url origin https://github.com/hylcore/hylcore-portfolio.git
+
+git filter-branch --env-filter "export GIT_COMMITTER_NAME='hylcore' export GIT_COMMITTER_EMAIL='guru1628823.tts@gmail.com' export GIT_AUTHOR_NAME='hylcore' export GIT_AUTHOR_EMAIL='guru1628823.tts@gmail.com'" --tag-name-filter cat -- --branches --tags
+
+git push
+
 git config --global --unset http.proxy
 
 // skype security error
