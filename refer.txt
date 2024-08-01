@@ -17,3 +17,6 @@ install ~ca.der
 
 // telegram proxy, login button isn't shown
 set checked ip in smart proxy
+
+
+git branch -M main
