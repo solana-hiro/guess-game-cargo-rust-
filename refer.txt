@@ -20,3 +20,7 @@ set checked ip in smart proxy
 
 
 git branch -M main
+
+
+//how to install vpn on win 10 vps
+https://www.snel.com/support/learn-how-to-connect-l2tp-ipsec-vpn-on-windows-10/
